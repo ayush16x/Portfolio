@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ayush Kumar Gupta | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav>
+  <div class="container nav-container">
+    <div class="logo">Ayush</div>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#Technical skills">Technical Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<!-- Header -->
+<header>
+  <div class="container header-flex">
+    <img src="myphoto.jpeg" alt="Profile Picture" class="profile-pic animated" />
+    <div class="header-info">
+      <h1>Ayush Kumar Gupta</h1>
+      <p>Full-Stack Developer</p>
+      <div class="social-links">
+        <a href="mailto:ayushkumargupta6341@gmail.com">Email</a>
+        <a href="https://github.com/ayush16x" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/ayushkumargupta16/" target="_blank">LinkedIn</a>
+      </div>
+      <a href="resume.pdf" class="resume-button" target="_blank">Resume</a>
+    </div>
+  </div>
+</header>
+
+<!-- Sections -->
+<section id="about" data-aos="fade-up" data-aos-duration="1000">
+  <div class="container">
+    <h2>About Me</h2>
+    <p>
+      I’m a full-stack software developer currently pursuing a B.E. in Computer Science at SMVIT, Bangalore.
+      I specialize in building web apps, automation workflows, and decentralized platforms using tools like React, Node.js, n8n, OpenAI, and Solidity.
+    </p>
+  </div>
+</section>
+
+<section id="Technical skills" data-aos="fade-right" data-aos-duration="1000">
+  <div class="container">
+    <h2>Skills</h2>
+    <ul>
+      <li>Languages: C, Python, Java, JavaScript, SQL</li>
+      <li>Frontend: HTML, CSS, React.js</li>
+      <li>Backend: Node.js, Express.js</li>
+      <li>Database: MongoDB, PostgreSQL, MySQL</li>
+      <li>Tools and Integrations: Git, Docker, Postman, n8n, Make.com, Twilio, Razorpay, REST APIs</li>
+    </ul>
+  </div>
+</section>
+
+<section id="experience" data-aos="fade-left" data-aos-duration="1000">
+  <div class="container">
+    <h2>Experience</h2>
+    <div class="job">
+      <h3>Software Developer Intern – Pinnakle Media (Feb 2025 – May 2025)</h3>
+      <ul>
+        <li>Increased client conversion by 25% via OpenAI API onboarding automation.</li>
+        <li>Reduced delivery time 95% with a voice assistant workflow using n8n + Twilio.</li>
+      </ul>
+    </div>
+    <div class="job">
+      <h3>Front-End Intern – Skyscanner (July 2023 – Aug 2023)</h3>
+      <ul>
+        <li>Built travel date picker using React and Backpack UI.</li>
+        <li>Improved UI reliability with automated testing via Jest.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="projects" data-aos="zoom-in" data-aos-duration="1000">
+  <div class="container">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>QR Code-Based Food Ordering App</h3>
+      <p>Order food directly from the table by scanning a QR code.</p>
+      <p><strong>Tech:</strong> React.js, Node.js, MongoDB, Razorpay</p>
+      <a href="https://github.com/ayush16x/food-ordering-qr" target="_blank">GitHub</a>
+    </div>
+    <div class="project">
+      <h3>Decentralized File Sharing dApp</h3>
+      <p>Secure and decentralized file sharing using IPFS and Solidity.</p>
+      <p><strong>Tech:</strong> Solidity, Ether.js, React.js</p>
+      <a href="https://github.com/ayush16x/decentralized-file-sharing" target="_blank">GitHub</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact" data-aos="fade-up" data-aos-duration="1000">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:ayushkumargupta6341@gmail.com">ayushkumargupta6341@gmail.com</a></p>
+    <p>Phone: +91 9608226156</p>
+    <p>Location: Bangalore, India</p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2025 Ayush Kumar Gupta</p>
+</footer>
+
+<script>
+  const toggle = document.getElementById('menu-toggle');
+  const navLinks = document.getElementById('nav-links');
+
+  toggle.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+  });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
