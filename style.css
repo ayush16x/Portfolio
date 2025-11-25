@@ -200,3 +200,11 @@ a:hover, .resume-button:hover {
 .profile-pic {
   animation: float 3s ease-in-out infinite, fadeInZoom 1.2s ease-out forwards;
 }
+
+:root {
+  --nav-offset: 95px;
+}
+
+section {
+  scroll-margin-top: var(--nav-offset);
+}

@@ -16,6 +16,7 @@
     <div class="menu-toggle" id="menu-toggle">&#9776;</div>
     <ul class="nav-links" id="nav-links">
       <li><a href="#about">About</a></li>
+      <li><a href="#Education">Education</a></li>
       <li><a href="#Technical skills">Technical Skills</a></li>
       <li><a href="#experience">Experience</a></li>
       <li><a href="#projects">Projects</a></li>
@@ -47,21 +48,41 @@
   <div class="container">
     <h2>About Me</h2>
     <p>
-      I’m a full-stack software developer currently pursuing a B.E. in Computer Science at SMVIT, Bangalore.
-      I specialize in building web apps, automation workflows, and decentralized platforms using tools like React, Node.js, n8n, OpenAI, and Solidity.
+      Full-Stack Software Developer with hands-on experience in front-end and back-end development, API integration,
+      and building AI workflows and automations, with experience collaborating across cross-functional teams.
     </p>
   </div>
 </section>
+
+<section id="Education" data-aos="fade-left" data-aos-duration="1000">
+  <div class="container">
+    <h2>Education</h2>
+    <div class="Education">
+      <h3>Bachelor of Engineering – Sir M Visvesvaraya Institute Of Technology, Bangalore (Dec 2021 – May 2025)</h3>
+      <ul>
+        <li>Computer Science and Engineering • CGPA: 8.1</li>
+      </ul>
+    </div>
+    <div class="Education">
+      <h3>Mithila Public School, Bihar - Senior Secondary (2019 – 2021)</h3>
+      <ul>
+        <li>Central Board of Secondary Education(C.B.S.E) • CGPA: 7.5</li>
+      </ul>
+    </div>
+  </div>
+  </section>
+
 
 <section id="Technical skills" data-aos="fade-right" data-aos-duration="1000">
   <div class="container">
     <h2>Technical skills</h2>
     <ul>
-      <li>Languages: C, Python, Java, JavaScript, SQL</li>
-      <li>Frontend: HTML, CSS, React.js</li>
-      <li>Backend: Node.js, Express.js</li>
-      <li>Database: MongoDB, PostgreSQL, MySQL</li>
-      <li>Tools and Integrations: Git, Docker, Postman, n8n, Make.com, Twilio, Razorpay, REST APIs</li>
+      <li>Languages: C, Python, Java, JavaScript, SQL, Data Structures & Algorithms (DSA)</li>
+      <li>Frontend: HTML, CSS, React.js, TailwindCSS</li>
+      <li>Backend: Node.js, Express.js, REST APIs</li>
+      <li>Database: MongoDB, PostgreSQL, MySQL, Pinecone</li>
+      <li>AI, Automation & Tools : Generative AI (OpenAI APIs, LangChain, Prompt Engineering), n8n, Make.com, API
+          Orchestration, Git, Docker, Postman</li>
     </ul>
   </div>
 </section>
@@ -70,17 +91,35 @@
   <div class="container">
     <h2>Experience</h2>
     <div class="job">
-      <h3>Software Developer Intern – Pinnakle Media (Feb 2025 – May 2025)</h3>
+      <h3>SDE Intern – Bluestocks Fintech (Aug 2025 – Sep 2025)</h3>
       <ul>
-        <li>Increased client conversion by 25% via OpenAI API onboarding automation.</li>
-        <li>Reduced delivery time 95% with a voice assistant workflow using n8n + Twilio.</li>
+        <li>Built a verified user & company onboarding system with React, Node.js, Express, PostgreSQL,
+            Firebase, and Multer for secure registration, login, and profile setup.</li>
+        <li>Developed a financial data pipeline using Node.js, Python, and MySQL to process profit & loss and cash flow
+            reports for real-time dashboard insights.</li>
+        <li>Implemented cross-database sync between PostgreSQL and MySQL to ensure data consistency and scalability.</li>
       </ul>
     </div>
     <div class="job">
-      <h3>Front-End Intern – Skyscanner (July 2023 – Aug 2023)</h3>
+      <h3>Software Developer Intern – Pinnakle Media (Feb 2025 – May 2025)</h3>
       <ul>
-        <li>Built travel date picker using React and Backpack UI.</li>
-        <li>Improved UI reliability with automated testing via Jest.</li>
+        <li>Built custom AI agents with OpenAI GPT + Whisper, including a voice-enabled agent that books appointments
+            and places orders over phone calls, improving client engagement efficiency by 30%</li>
+        <li>Delivered AI-powered automations using n8n, make.com, and API integrations (Twilio, OpenAI, Whisper) that
+            reduced manual work by 40% and accelerated workflows from hours to minutes</li>
+        <li>Accomplished accurate client data collection by building Apify-based web scrapers, parsing JSON datasets, and
+            automating 90% of the data gathering process for client research</li>
+      </ul>
+    </div>
+    <div class="job">
+      <h3>Automation & Content Research Intern – Cannibals Media (Sep 2024 – Oct 2024)</h3>
+      <ul>
+        <li>Automated SEO research processes with Google Apps Script, cutting manual effort for keyword extraction and
+            competitor tracking by 60%</li>
+        <li>Developed interactive Google Sheets dashboards to auto-update SEO keywords, group topics, and track
+            rankings, improving research speed by 40%.</li>
+        <li>Used Python web scraping to collect trending questions, helping create content that boosted Google visibility by
+            30%.</li>
       </ul>
     </div>
   </div>
@@ -91,15 +130,21 @@
     <h2>Projects</h2>
     <div class="project">
       <h3>QR Code-Based Food Ordering App</h3>
-      <p>Order food directly from the table by scanning a QR code.</p>
-      <p><strong>Tech:</strong> React.js, Node.js, MongoDB, Razorpay</p>
-      <a href="https://github.com/ayush16x/food-ordering-qr" target="_blank">GitHub</a>
+      <p>Built a restaurant admin dashboard to manage menus, categories, items, and table-wise QR codes.</p>
+      <p>Designed a real-time order flow from customer → kitchen → completed using status-based tracking.</p>
+      <p>Implemented secure authentication with JWT for restaurant owners and staff.</p>
+      <p>Integrated Razorpay for secure online payments and automatic order confirmation.</p>
+      <p><strong>Tech:</strong> React.js, Node.js, Express.js, MongoDB, JWT, Razorpay</p>
+      <a href="https://qr-menu-xi-six.vercel.app/" target="_blank">Live Demo</a>
     </div>
     <div class="project">
       <h3>Decentralized File Sharing dApp</h3>
-      <p>Secure and decentralized file sharing using IPFS and Solidity.</p>
-      <p><strong>Tech:</strong> Solidity, Ether.js, React.js</p>
-      <a href="https://github.com/ayush16x/decentralized-file-sharing" target="_blank">GitHub</a>
+      <p>Developed Solidity smart contracts to manage file ownership and access on-chain.</p>
+      <p>Integrated IPFS for decentralized file storage and retrieval using content hashes.</p>
+      <p>Built a React.js frontend that connects to Ethereum wallets (e.g., MetaMask) using Ether.js.</p>
+      <p>Implemented a simple and intuitive UI to upload, view, and share files securely.</p>
+      <p><strong>Tech:</strong> Solidity, Ether.js, React.js, IPFS</p>
+      <a href="https://github.com/ayush16x/Decentralized-Sharing" target="_blank">GitHub Repo</a>
     </div>
   </div>
 </section>
